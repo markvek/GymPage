@@ -11,16 +11,6 @@ const Hero = () => {
         element?.scrollIntoView({ behavior: 'smooth' });
     };
 
-    const businessHours = [
-        { day: 'Monday', hours: '5:30 AM - 11:00 PM' },
-        { day: 'Tuesday', hours: '5:30 AM - 11:00 PM' },
-        { day: 'Wednesday', hours: '5:30 AM - 11:00 PM' },
-        { day: 'Thursday', hours: '5:30 AM - 11:00 PM' },
-        { day: 'Friday', hours: '5:30 AM - 10:00 PM' },
-        { day: 'Saturday', hours: '7:00 AM - 8:00 PM' },
-        { day: 'Sunday', hours: '8:00 AM - 6:00 PM' }
-    ];
-
     return (
         <Box
             sx={{

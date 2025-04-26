@@ -1,9 +1,6 @@
 import { Box, Button, Container, Grid, Typography, Avatar } from '@mui/material';
-import type { GridProps } from '@mui/material';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import GroupIcon from '@mui/icons-material/Group';
-
-const GridItem = (props: GridProps) => <Grid {...props} />;
 
 const FeaturedClass = () => {
     return (
@@ -26,7 +23,7 @@ const FeaturedClass = () => {
                     Featured Class
                 </Typography>
                 <Grid container spacing={4} alignItems="center">
-                    <GridItem item xs={12} md={6}>
+                    <Grid item xs={12} md={6}>
                         <Box
                             sx={{
                                 width: '100%',
@@ -43,8 +40,8 @@ const FeaturedClass = () => {
                                 Class Image Placeholder
                             </Typography>
                         </Box>
-                    </GridItem>
-                    <GridItem item xs={12} md={6}>
+                    </Grid>
+                    <Grid item xs={12} md={6}>
                         <Box sx={{ p: { xs: 2, md: 4 } }}>
                             <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
                                 <Avatar
@@ -102,7 +99,7 @@ const FeaturedClass = () => {
                                 Try Free Trial
                             </Button>
                         </Box>
-                    </GridItem>
+                    </Grid>
                 </Grid>
             </Container>
         </Box>

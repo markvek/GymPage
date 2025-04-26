@@ -1,4 +1,4 @@
-import { Box, Container, IconButton, Link, Typography, useTheme, useMediaQuery } from '@mui/material';
+import { Box, Container, IconButton, Link, Typography, useTheme } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -8,7 +8,6 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const Footer = () => {
     const theme = useTheme();
-    const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
     return (
         <Box
@@ -107,7 +106,7 @@ const Footer = () => {
                         </Box>
                     </Box>
 
-                    {/* Quick Links Section */}
+                    {/* Links Section */}
                     <Box
                         sx={{
                             flex: { xs: '1 1 100%', sm: '1 1 200px' },
@@ -198,8 +197,8 @@ const Footer = () => {
                                         fontSize: { xs: '0.9rem', sm: '1rem' }
                                     }}
                                 >
-                                    123 Fitness Street<br />
-                                    San Francisco, CA 94105
+                                    520 Waller St<br />
+                                    San Francisco, CA 94117
                                 </Typography>
                             </Box>
                             <Box
