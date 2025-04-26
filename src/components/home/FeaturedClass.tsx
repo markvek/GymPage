@@ -1,4 +1,4 @@
-import { Box, Button, Container, Grid, Typography, Avatar } from '@mui/material';
+import { Box, Button, Container, GridLegacy as Grid, Typography, Avatar } from '@mui/material';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import GroupIcon from '@mui/icons-material/Group';
 

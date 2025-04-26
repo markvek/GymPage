@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography, Paper } from "@mui/material";
+import { Box, Container, GridLegacy as Grid, Typography, Paper } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";

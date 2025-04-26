@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography } from '@mui/material';
+import { Box, Container, GridLegacy as Grid, Typography } from '@mui/material';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import GroupIcon from '@mui/icons-material/Group';
 import StarIcon from '@mui/icons-material/Star';
@@ -43,7 +43,7 @@ const Values = () => {
                 </Typography>
                 <Grid container spacing={4} justifyContent="center">
                     {values.map((value, index) => (
-                        <Grid item xs={12} sm={6} md={4} key={index}>
+                        <Grid key={index} item xs={12} sm={6} md={4}>
                             <Box
                                 sx={{
                                     p: 4,

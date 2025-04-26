@@ -1,4 +1,4 @@
-import { Box, Container, IconButton, Link, Typography, useTheme } from '@mui/material';
+import { Box, Container, IconButton, Link, Typography } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -7,8 +7,6 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 
 const Footer = () => {
-    const theme = useTheme();
-
     return (
         <Box
             component="footer"
